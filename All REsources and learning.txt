@@ -1,0 +1,6 @@
+NUcleo F401RE learning: 
+https://www.st.com/content/my_st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32cube-mcu-mpu-packages/stm32cubef4.license=1643529799251.product=STM32CubeF4.version=1.26.0.html --> MCU
+
+https://www.st.com/en/evaluation-tools/nucleo-f401re.html#documentation --> BOARD 
+
+https://www.st.com/en/microcontrollers-microprocessors/stm32f401re.html#documentation --> Docs 
