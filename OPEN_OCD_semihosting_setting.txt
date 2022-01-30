@@ -9,3 +9,11 @@ monitor arm semihosting enable
 Add the below function call to main.c 
 extern void initialise_monitor_handles(void);
 initialise_monitor_handles();
+
+
+--> Process: 
+1. for any project go into debugger, changed probe to Open ocd. 
+2. go to next tab start up --> run command box --> paste command "*monitor arm semihosting* enable"
+3. project --> properties --> C/C++ builds --> settings --> Tool Settings --> MCU GCC linker linker --> miscellenaous --> other flags --> mention linker arguments *-specs=rdimon.specs -lc -lrdimon*
+4. In main.c add function before any printf. initialise_monitor_handles(); also add the extern 
+5. Exclude systemcall.c filr from build, right click on systemcall.c --> properties --> C\C++ builds -->  check box exclude resource from buil. 
